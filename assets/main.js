@@ -73,8 +73,8 @@ var hangman = {
   hangman.updateHTML();
   
   // These sounds are expressions for the winners and losers
-  var ohYeahAudio = new Audio("sounds/oh yeah female voice.mp3");
-  var crowdBooAudio = new Audio("sounds/crowd boo 1.mp3");
+  var ohYeahAudio = new Audio("./assets/sounds/Oh-Yeah.mp3");
+  var crowdBooAudio = new Audio("./assets/sounds/Crowd-Boo.mp3");
   var userGuess;
   // Captures Key Clicks
   document.onkeyup = function(event) {
